@@ -1,11 +1,12 @@
-
+import Chai from "./Chai";
 
 
 function App() {
   return (
     <div>
-   <h1>chai aur react</h1>
-   <p>hi i am vinay pavan</p></div>
+      <Chai/>
+    
+   </div>
   );
 }
 

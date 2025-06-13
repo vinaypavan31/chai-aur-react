@@ -4,11 +4,24 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('sandy'));
 root.render(
-  <React.StrictMode>
+
     <App />
-  </React.StrictMode>
+  
 );
+// const myElement=(<>
+// <h1>Hello world</h1>
+//   <ul>
+//     <li>Apple</li>
+//     <li>Banana</li>
+//     <li>cherry</li>
+
+//   </ul>
+
+// </>
+  
+// )
+// root.render(myElement)
 
 

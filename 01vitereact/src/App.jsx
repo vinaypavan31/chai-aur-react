@@ -1,13 +1,16 @@
-
-
+import Chai from "./Chai"
 
 function App() {
+  const userName="akhil swag";
   
 
   return (
-    <h1>
-      Chai aur react with vite | ARS
-    </h1>
+    <>
+    <Chai />
+    <p>my friend name is {userName}</p>
+    <h1 >chai or react</h1>
+    </>
+    
   )
 }
 
